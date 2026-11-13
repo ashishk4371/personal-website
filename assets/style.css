@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #222;
+  background: #fdfdfd;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+a {
+  color: #1a5276;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0d2b3e;
+}
+
+.site-header {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.site-header nav {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.site-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #222;
+}
+
+.nav-links a {
+  margin-left: 1.25rem;
+  text-decoration: none;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.nav-links a:first-child {
+  margin-left: 0;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  padding: 1.5rem 1.25rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Home page */
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.links-list {
+  list-style: none;
+  padding: 0;
+}
+
+.links-list li {
+  margin-bottom: 0.4rem;
+}
+
+/* Blog list */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 1.25rem;
+}
+
+.post-list .post-list-date {
+  color: #888;
+  font-size: 0.85rem;
+  display: block;
+}
+
+.post-date {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project h2 {
+  margin-bottom: 0.3rem;
+}
+
+/* Resume */
+.resume-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #1a5276;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  background: #1a5276;
+  color: #fff;
+}

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcode-select -p)",
+      "Read(//Users/ashishk/.gem/ruby/**)",
+      "Read(//Users/ashishk/.gem/ruby/2.6.0/**)",
+      "Bash(kill 1652)",
+      "Bash(gem list *)",
+      "Read(//Users/ashishk/.gem/ruby/2.6.0/bin/**)",
+      "Bash(cat /private/tmp/claude-501/-Users-ashishk-Desktop-projects-personal-website/2fafb862-cb18-4771-9fbf-eceac6b1f5a5/tasks/bjiatt3vr.output 2>&1; echo \"---gems---\"; find /Users/ashishk/.gem/ruby/2.6.0/gems -maxdepth 1 2>&1)",
+      "Read(//Users/ashishk/.gem/ruby/2.6.0/gems/**)"
+    ]
+  }
+}

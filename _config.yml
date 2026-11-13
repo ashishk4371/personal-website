@@ -1,0 +1,19 @@
+title: Your Name
+description: Personal website
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
